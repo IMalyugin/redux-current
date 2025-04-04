@@ -1,0 +1,44 @@
+{
+	"name": "redux-current",
+	"version": "1.0.9",
+	"description": "A long missing IOC-container for react-redux apps",
+	"author": "Ivan Malyugin @ Beeline B2C Digital",
+	"license": "MIT",
+	"keywords": [
+		"redux",
+		"dependency injection",
+		"DI",
+		"IoC",
+		"injectable",
+		"module",
+		"selectors",
+		"splitting"
+	],
+	"sideEffects": false,
+	"exports": {
+		".": "./index.js",
+		"./internal": "./internal.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@reduxjs/toolkit": "^1.9.3",
+		"@types/react-redux": "^7.1.9",
+		"jest-cucumber": "^4.5.0",
+		"react-jsx-parser": "^2.3.0",
+		"react-redux": "^7.2.9",
+		"redux": "^4.2.1",
+		"reselect": "^4.1.7"
+	},
+	"peerDependencies": {
+		"@reduxjs/toolkit": ">=1.9.3",
+		"react-redux": ">=7.0.0",
+		"redux": ">=4.0.0",
+		"reselect": ">=4.0.0"
+	},
+	"dependencies": {
+		"memoize-one": "^6.0.0"
+	}
+}
