@@ -1,4 +1,4 @@
-<img src='./redux-current-logo.png' alt='Redux Current Logo' width='300' />
+<img src='https://github.com/IMalyugin/redux-current/raw/main/redux-current-logo.png' alt='Redux Current Logo' width='300' />
 
 # redux-current
 
