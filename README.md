@@ -1,4 +1,4 @@
-<img src='./redux-current-logo.png' alt='Redux Current Logo' width='800' />
+<img src='./redux-current-logo.png' alt='Redux Current Logo' width='300' />
 
 # redux-current
 
